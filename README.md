@@ -1,4 +1,4 @@
-# PoE2 Death Notification Tool
+# PoE2 RIP Notification Tool
 
 Path of Exile 2 (PoE2) 用の死亡通知＆スクリーンショット送信ツールです。
 
