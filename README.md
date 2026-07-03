@@ -17,9 +17,13 @@ Path of Exile 2 (PoE2) 用の死亡通知＆スクリーンショット送信ツ
 > **※注意 / Note:** > 本ツールのUIは日本語のみですが、ゲーム側の言語設定は日本語・英語の両方に対応しています。
 
 ### 主な機能
-* **死亡検知:** 死亡ログを検知しDiscordへ自動通知。
-* **5秒遅延スクリーンショット:** 死亡検知の5秒後に自動キャプチャして送信します。
-
+1. **死亡検知アラート**
+   - キャラクターの死亡ログをリアルタイムで検知し、Discordへ即時通知します。
+2. **5秒遅延スクリーンショット送信**
+   - ログ検知から5秒後にゲーム画面を自動キャプチャし、Discordへ送信します。
+   - 力尽きた瞬間のドラマチックな光景や、敗因分析のための貴重な記録をきれいな画質で残せます。
+   - **ハードコアモードでは「散り際」こそが、最も輝く瞬間です。その一瞬をぜひ逃さず記録してください。**
+     
 ## 使い方
 
 1. `PoE2_Death_Tool_v2.exe` を起動します。
@@ -80,6 +84,14 @@ Path of Exile 2 (PoE2) 用の死亡通知＆スクリーンショット送信ツ
 ## English (Translation)
 
 This is a support tool for Path of Exile 2 (PoE2) that automatically sends a death notification and a screenshot to your Discord channel when your character dies.
+
+### Key Features
+1. **Death Detection Alert**
+   - Detects your character's death log in real-time and sends an instant notification to Discord.
+2. **5-Second Delayed Screenshot**
+   - Automatically captures your game screen 5 seconds after the death detection and sends it to Discord.
+   - It captures the dramatic moment of your defeat in high quality, perfect for reliving the experience or analyzing what went wrong.
+   - **In Hardcore mode, your final moments are when you shine the brightest. Don't let that moment fade away—capture it.**
 
 **Note: Compatibility**
 While this tool is primarily designed for Hardcore (HC) mode, it detects any "character death" event from the game logs. Please note that it will also trigger notifications during Softcore play. You can toggle the tool ON/OFF manually depending on your current mode.
