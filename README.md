@@ -2,7 +2,10 @@
 
 Path of Exile 2 (PoE2) 用の死亡通知＆スクリーンショット送信ツールです。
 
-<img width="600" height="301" alt="githubtop" src="https://github.com/user-attachments/assets/2f52abac-3f5c-4d3b-9857-dbb31a9d3389" />
+<img width="473" height="72" alt="TOPnotifichation" src="https://github.com/user-attachments/assets/0f9c4433-51ce-495a-96d1-6779bad9ade6" />
+
+<img width="2523" height="1039" alt="TOPRIP" src="https://github.com/user-attachments/assets/fd02229b-07d7-4c0b-a2d3-08cb02c91e64" />
+
 
 
 ## 概要
