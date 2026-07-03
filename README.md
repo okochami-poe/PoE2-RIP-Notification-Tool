@@ -60,9 +60,14 @@ Path of Exile 2 (PoE2) 用の死亡通知＆スクリーンショット送信ツ
 * **画面設定:** スクリーンショット機能は【ウィンドウ】または【仮想フルスクリーン】モードで動作します。
  > **※注意:** > スクリーンショットは死亡検知の **5秒後** に撮影されます。
 
+## 既知の問題
 
+本ツールは「Client.txt」のログを監視して通知を行う仕組みのため、以下の条件下で誤検知が発生する可能性があります。
 
+1. **文字列の誤検知**: チャット欄などで特定のキーワードが含まれた場合、死亡通知として誤って検知される場合があります。
+2. **パーティプレイ時の挙動（未確認）**: パーティメンバーが死亡した際、ログの仕様上、自分以外のメンバーの死亡ログも検知して通知を送ってしまう可能性があります。こちらについてはまだ完全には検証できておりませんが、可能性として共有させていただきます。
 
+※現在、これらは仕様上の制限として認識しており、今後のアップデートで精度の向上を検討中です。
 
 ## 免責事項
 本ツールは非公式ツールです。使用により生じたトラブルやゲームアカウント停止等の損害に対し、作成者は一切責任を負いません。ご利用は自己責任でお願いします。
@@ -121,7 +126,17 @@ While this tool is primarily designed for Hardcore (HC) mode, it detects any "ch
 ### Important Notes
 * **In-Game Screen Mode:** The screenshot feature requires the game's display setting to be set to either "Windowed" or "Windowed Fullscreen" mode.
 > **※Note:** > Screenshots are taken 5 seconds after the death is detected.
-### Disclaimer
+
+## Known Issues
+
+Due to the nature of how this tool monitors the "Client.txt" log file, false positives may occur under the following conditions:
+
+1. **Text Detection**: If specific keywords appear in the chat or other logs, the tool may mistakenly trigger a death notification.
+2. **Party Play (Unconfirmed)**: It is possible that the tool may also detect the death of a party member and report it as your own. This has not been fully verified yet, but I wanted to make users aware of the possibility.
+
+*These issues are currently recognized as limitations of the tool's design, and I am considering potential improvements for future updates.*
+
+## Disclaimer
 This is an unofficial tool. The author is not responsible for any issues, including account bans or technical problems, caused by using this tool. Use it at your own risk.
 
 > The UI of this tool is in Japanese only, but it is compatible with both "Japanese" and "English" in-game language settings.
