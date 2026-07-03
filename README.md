@@ -21,7 +21,7 @@ Path of Exile 2 (PoE2) 用の死亡通知＆スクリーンショット送信ツ
    - キャラクターの死亡ログをリアルタイムで検知し、Discordへ即時通知します。
 2. **5秒遅延スクリーンショット送信**
    - ログ検知から5秒後にゲーム画面を自動キャプチャし、Discordへ送信します。
-   - 力尽きた瞬間のドラマチックな光景や、敗因分析のための貴重な記録をきれいな画質で残せます。
+   - 力尽きた瞬間のドラマチックな光景(あるいは悔しい)、敗因分析のための貴重な記録をきれいな画質で残せます。
    - **ハードコアモードでは「散り際」こそが、最も輝く瞬間です。その一瞬をぜひ逃さず記録してください。**
      
 ## 使い方
@@ -90,7 +90,7 @@ This is a support tool for Path of Exile 2 (PoE2) that automatically sends a dea
    - Detects your character's death log in real-time and sends an instant notification to Discord.
 2. **5-Second Delayed Screenshot**
    - Automatically captures your game screen 5 seconds after the death detection and sends it to Discord.
-   - It captures the dramatic moment of your defeat in high quality, perfect for reliving the experience or analyzing what went wrong.
+   - It captures the dramatic or frustrating moment of your defeat in high quality, perfect for reliving the experience or analyzing what went wrong.
    - **In Hardcore mode, your final moments are when you shine the brightest. Don't let that moment fade away—capture it.**
 
 **Note: Compatibility**
